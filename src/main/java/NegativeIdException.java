@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class NegativeIdException {
+public class NegativeIdException extends RuntimeException {
+
+    public NegativeIdException(String msg) {
+        super(msg);
+    }
 }
